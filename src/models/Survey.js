@@ -7,8 +7,11 @@ const SurveySchema = new Schema({
     type: String,
     required: true,
   },
+  picURL: {
+    type: String,
+  },
   created: {
-    type: Date,
+    type: String,
     required: true,
   },
   description: {
