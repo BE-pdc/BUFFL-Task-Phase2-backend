@@ -9,6 +9,7 @@ const SurveySchema = new Schema({
   },
   picURL: {
     type: String,
+    required: true,
   },
   created: {
     type: String,
@@ -16,7 +17,6 @@ const SurveySchema = new Schema({
   },
   description: {
     type: String,
-    required: true,
   },
   target: {
     type: Number,
